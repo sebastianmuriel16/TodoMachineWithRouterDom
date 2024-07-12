@@ -71,7 +71,7 @@ function useLocalStorage(itemName, initialValue) {
   };
 
   React.useEffect(() => {
-    setTimeout(() => {
+    const timeoutEffect = setTimeout(() => {
       try {
         const localStorageItem = localStorage.getItem(itemName);
         let parsedItem;
@@ -90,7 +90,9 @@ function useLocalStorage(itemName, initialValue) {
         // setError(error);
         onError(error);
       }
-    }, 2000);
+    }, 1000);
+
+    return () => clearTimeout(timeoutEffect);
   }, [sincronizedItem]); // el array vacio es para que el useEffect solo se ejecute una unica vez (Nota antes el array estaba vacio )
 
   const saveItem = (newItem) => {
