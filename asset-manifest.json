@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TodoMachineWithRouterDom/static/css/main.8a6f6013.css",
+    "main.js": "/TodoMachineWithRouterDom/static/js/main.1dc3faaf.js",
+    "index.html": "/TodoMachineWithRouterDom/index.html",
+    "static/media/delete.svg": "/TodoMachineWithRouterDom/static/media/delete.331149da222541bc87c25bf8d775a070.svg",
+    "static/media/edit.svg": "/TodoMachineWithRouterDom/static/media/edit.569363b1fad8252af1f4f6e04345ba2e.svg",
+    "static/media/check.svg": "/TodoMachineWithRouterDom/static/media/check.fa4fb594b16385306a04b9c87c0feb55.svg",
+    "main.8a6f6013.css.map": "/TodoMachineWithRouterDom/static/css/main.8a6f6013.css.map",
+    "main.1dc3faaf.js.map": "/TodoMachineWithRouterDom/static/js/main.1dc3faaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a6f6013.css",
+    "static/js/main.1dc3faaf.js"
+  ]
+}
